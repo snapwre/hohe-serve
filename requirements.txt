@@ -1,0 +1,10 @@
+# Pinned the way the training boxes are pinned: numpy 1, because numpy 2 breaks
+# torch extensions that were built against 1 and it has cost four boxes already.
+numpy<2
+torch==2.8.0
+transformers==4.57.6
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+soundfile==0.13.1
+boto3==1.35.99

@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+
+# One account's network. Everybody fills in their own.
+deploy/config.json

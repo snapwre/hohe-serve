@@ -1,0 +1,18 @@
+{
+  "profile": "your-aws-cli-profile",
+  "region": "eu-central-1",
+  "vpc": "vpc-xxxxxxxx",
+  "subnets": [
+    "subnet-aaaa",
+    "subnet-bbbb",
+    "subnet-cccc"
+  ],
+  "client_security_group": "sg-xxxxxxxx",
+  "instance_profile": "a-profile-that-can-read-your-bucket-and-ssm",
+  "bucket": "your-bucket",
+  "model_prefix": "asr/v0.3",
+  "code_key": "hohe/serve.py",
+  "secret_param": "/hohe/asr-secret",
+  "name": "hohe-asr",
+  "port": 8080
+}
